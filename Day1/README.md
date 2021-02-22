@@ -20,11 +20,11 @@ sudo -i
 > ### Main command in test is
 
 ```terminal
-apt update
-uname -a
+apt update // Security Update
+uname -a // Kernal Version
 df
-top
-vmstart
+top // Check Statics
+vmstart // Virtual-Memory Statics
 ping 8.8.8.8
 history // for checking all used commands
 ```
