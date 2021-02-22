@@ -11,11 +11,22 @@
 > 9.  Connect Click
 > 10. Test
 
-> ### Main command in test is
-
 ```code
 sudo -i
 ```
 
 > 11. Test Commands
+>
+> ### Main command in test is
+
+```terminal
+apt update
+uname -a
+df
+top
+vmstart
+ping 8.8.8.8
+history // for checking all used commands
+```
+
 > 12. Terminate Instance
