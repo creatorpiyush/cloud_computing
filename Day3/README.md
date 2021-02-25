@@ -33,7 +33,7 @@ ls  -lrt   p1
 > mysql -u root -p
 > create database testdb;
 > create user 'testuser1'@'localhost' identified by 'B@RIM143s';
-> grant all privileges on testdb.* to 'testuser1'@'localhost';\
+> grant all privileges on testdb.* to 'testuser1'@'localhost';
 root# mysql -u testuser1 -p use testdb;
 > create table customers (customer_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, first_name TEXT, last_name TEXT);
 > desc customers;
